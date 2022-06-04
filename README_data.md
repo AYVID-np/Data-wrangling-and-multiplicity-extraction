@@ -1,6 +1,5 @@
 "This project involves data wrangling along with its analysis and is a part of my Doctoral thesis."
 
-A ".lmd" file is used as an input file which is essentially a list mode data file wherein the data is written on event-by-event basis (time stamped), similar to a ".csv" file. 
-The data file contains dynamical columns that are recorded for E^7 events. 
-The columns in the file are dynamically varying depending upon the non-zero values stored by thesisgorical variables "3000000000,3300000000.....,3333330000,5000000000,5500000000.....5555000000". In order to account for the detection efficiency of the measurement, data values are manipulated convoluting  with the uncertainties. 
-The data is further analyzed with and without gating conditions to extract the desired results. 
+A ".lmd" file is used as an input file which is essentially a list mode data file wherein the data is written on event-by-event basis (time stamped), a snippet of it is attached as a ".csv" file. 
+
+The data file contains dynamical columns that are recorded for E^7 events. The columns in the file are dynamically varying depending upon the non-zero values stored by the categorical variables  "3000000000,3300000000....., 3333330000, 5000000000, 5500000000.........5555000000". To elaborate  3000000000 introduces one extra column,  3300000000  introduces two extra columns, ...., 3333330000 introduces six extra columns and so on. This poses an additional complexity to the analysis of the data. Furthermore, in order to account for the detection efficiency of the measurement, data values are manipulated by convoluting each event with the involved measurement uncertainties. The data is further analyzed with more strict conditions in the form of selecting events that satisfy a certain criteria, so called "gating condition" to extract the desired results. 
